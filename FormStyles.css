@@ -1,0 +1,64 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+.container {
+    border:1px solid #000000;
+    padding: 10px;
+    margin-top: 14px;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.registertitle {
+    position:absolute;
+    font-size: 17px;
+    font-weight: 300;
+    top: -7px;
+    background-color: #FFFFFF;
+    color: #0f0c29;
+    padding: 0px 3px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color:#FFFFFF;
+    font-size: 14px;
+}
+
+input {
+    margin-bottom: 17px;
+    margin-top: 4px;
+    border-radius: 4px 4px 4px 4px;
+    border-color:#FFFFFF;
+    border: 0 solid;
+}
+
+.inputsocial, .gender {
+    display: inline;
+}
+
+textarea {
+    display: block;
+    border-radius: 4px 4px 4px 4px;
+    border: 0 solid;
+    border-color:#FFFFFF;
+}
+
+#profilepic, #mobile, #linkedin, #password {
+    display: block;
+    border: 0 solid;
+}
+
+.button {
+    border-radius: 4px 4px 4px 4px;
+    border: 0 solid;
+    color:  #0f0c29;    
+}
+button:hover {
+    background-color: #C70039;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    border-color:#900C3F;
+    cursor: pointer;
+}
